@@ -126,7 +126,7 @@ submenu.add_command(label="Search",command=Search)
 menu.add_cascade(label='Edit',menu=submenu)
 submenu = tkinter.Menu(menu,tearoff=0,bg= '#CDCDC1')
 def About():
-    tkinter.messagebox.showinfo(title='About',message='作者:王丹丹')
+    tkinter.messagebox.showinfo(title='About',message='作者:王丹丹 2018-6-26')
 submenu.add_command(label='About',command=About)
 menu.add_cascade(label='Help',menu=submenu)
 #将创建的菜单关联到程序窗口

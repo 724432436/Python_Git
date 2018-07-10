@@ -8,7 +8,7 @@ def format_addr(s):
     name,addr= parseaddr(s)
     return formataddr((Header(name,'utf-8').encode(),addr))
 for_addr = '13286825158@163.com'
-passwd = 'w930708'
+passwd = '*******'
 to_addr = '724432436@qq.com'
 smtp_server = 'smtp.163.com'
 msg = MIMEMultipart()
